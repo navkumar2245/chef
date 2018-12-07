@@ -1,4 +1,14 @@
 GIT
+  remote: https://github.com/bblimke/webmock.git
+  revision: a135a37ff5f982a43806c52f2f7e778baba80797
+  branch: master
+  specs:
+    webmock (3.4.2)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
+      hashdiff
+
+GIT
   remote: https://github.com/chef/chefstyle.git
   revision: 5e596babac0e107170ce7c5cc706646bf609ab25
   branch: master
@@ -167,7 +177,7 @@ GEM
     highline (1.7.10)
     htmlentities (4.3.4)
     iniparse (1.4.4)
-    inspec-core (3.0.61)
+    inspec-core (3.0.64)
       addressable (~> 2.4)
       faraday (>= 0.9.0)
       hashie (~> 3.4)
@@ -203,10 +213,7 @@ GEM
     mixlib-config (2.2.13)
       tomlrb
     mixlib-log (2.0.4)
-    mixlib-shellout (2.4.0)
-    mixlib-shellout (2.4.0-universal-mingw32)
-      win32-process (~> 0.8.2)
-      wmi-lite (~> 1.0)
+    mixlib-shellout (2.4.2)
     multi_json (1.13.1)
     multipart-post (2.0.0)
     net-http-persistent (2.9.4)
@@ -325,10 +332,6 @@ GEM
       ethon (>= 0.8.0)
     unicode-display_width (1.4.0)
     uuidtools (2.1.5)
-    webmock (3.4.2)
-      addressable (>= 2.3.6)
-      crack (>= 0.3.2)
-      hashdiff
     websocket (1.2.8)
     win32-api (1.5.3-universal-mingw32)
     win32-certstore (0.1.11)
@@ -386,7 +389,7 @@ DEPENDENCIES
   simplecov
   tomlrb
   travis
-  webmock
+  webmock!
   yard
 
 BUNDLED WITH

@@ -55,7 +55,7 @@ group(:development, :test) do
   # two rake gems installed again
   gem "rake", "<= 12.3.0"
   gem "simplecov"
-  gem "webmock"
+  gem "webmock", git: "https://github.com/bblimke/webmock.git", branch: "master"
 
   # for testing new chefstyle rules
   gem "chefstyle", git: "https://github.com/chef/chefstyle.git", branch: "master"
